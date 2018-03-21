@@ -15,7 +15,7 @@
                 $sql = "SELECT * FROM user_info"; 
                 $result = mysqli_query($conn, $sql);
                 $resultCheck = mysqli_num_rows($result);
-                echo "<table border=2px><br>";
+                echo "<table class='table'><br>";
                 $i = 0;
                 
                 while($i < $resultCheck ){

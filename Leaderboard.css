@@ -1,9 +1,16 @@
 .main-wrapper{
-    background: url('../img/lingo.png') fixed no-repeat ;;
+    background: url('../loginsystem/img/lingo.png') fixed no-repeat ;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.table {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
 }
 h1{
     text-align: center;
